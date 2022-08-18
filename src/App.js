@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import Idolo from './components/Idolo'
 import './App.css';
+import Eurico from './components/imgs/eurico.jpg'
+import Luan from './components/imgs/luan.jpeg'
+
 
 function App() {
 
@@ -8,11 +11,11 @@ function App() {
     {
       nome:"Eurico Lara",
       imagem:"eurico.jpg",
-      descricao:"Eurico Lara"
+      descricao:"Eurico Lara",
     },
     {
       nome:"Luan Guilherme",
-      imagem:"luan.jpg",
+      imagem:"luan.jpeg",
       descricao:"Luan Guilherme"
     },
     {
@@ -41,6 +44,7 @@ function App() {
       {
         idolos.map(idolo=> renderizaIdolo(idolo))
       }
+      <img src={Eurico}/>
     </div>
   );
 }
