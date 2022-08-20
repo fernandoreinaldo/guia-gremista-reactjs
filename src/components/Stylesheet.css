@@ -1,0 +1,16 @@
+.titulo{
+    background-color: black;
+    color: white;
+    border: 5px solid;
+}
+
+
+.nome{
+    color: black;
+    background-color: white;
+    
+}
+
+.descricao{
+    background-color: white;
+}

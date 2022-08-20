@@ -1,13 +1,14 @@
+import './Stylesheet.css'
 const Idolo =(props)=>{
     return(
         <div>
-            <h1>
+            <h1 className='titulo'>
                 Idolos Gremistas
             </h1>
 
-            <p>nome:{props.nome}</p>
-            <p>imagem:{props.imagem}</p>
-            <p>descricao:{props.descricao}</p>
+            <p className='nome'>nome:{props.nome}</p>
+            <img src={`${process.env.PUBLIC_URL}/assets/${props.img}`} className='imagem'/>
+            <p className='descricao'>descricao:{props.descricao}</p>
         </div>
     )
 }
