@@ -14,3 +14,11 @@
 .descricao{
     background-color: white;
 }
+
+.geral{
+    width: 70%;
+    margin: 0px auto 0px auto;
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 50px;
+}

@@ -1,7 +1,7 @@
 import './Stylesheet.css'
 const Idolo =(props)=>{
     return(
-        <div>
+        <div className='geral'>
             <h1 className='titulo'>
                 Idolos Gremistas
             </h1>
