@@ -1,8 +1,9 @@
 import './Stylesheet.css'
 const Idolo =(props)=>{
+    let className = props.titulo ? 'titulo': ''
     return(
         <div className='geral'>
-            <h1 className='titulo'>
+            <h1 className = {`${className} font-xl`}>
                 Idolos Gremistas
             </h1>
 
